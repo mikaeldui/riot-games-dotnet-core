@@ -14,7 +14,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>Sona_17.jpg</PackageIcon>
     <RepositoryUrl>https://github.com/mikaeldui/riot-games-dotnet-core</RepositoryUrl>
-    <PackageTags></PackageTags>
+    <PackageTags>RiotGames</PackageTags>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
     <AssemblyName>MikaelDui.RiotGames.Core</AssemblyName>
   </PropertyGroup>
