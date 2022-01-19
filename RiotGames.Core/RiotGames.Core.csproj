@@ -9,10 +9,10 @@
     <PackageId>MikaelDui.RiotGames.Core</PackageId>
     <Authors>Mikael Dúi Bolinder</Authors>
     <Product>MikaelDui.RiotGames.Core</Product>
-    <Description>Core models for MikaelDui.RiotGames packages</Description>
+    <Description>Core models for the MikaelDui.RiotGames.* packages</Description>
     <PackageProjectUrl>https://github.com/mikaeldui/riot-games-dotnet-core</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageIcon>RiotGames.Core.png</PackageIcon>
+    <PackageIcon>Sona_17.jpg</PackageIcon>
     <RepositoryUrl>https://github.com/mikaeldui/riot-games-dotnet-core</RepositoryUrl>
     <PackageTags></PackageTags>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
@@ -20,18 +20,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\RiotGames.Core.png">
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\README.md">
+    <None Include="..\Sona_17.jpg">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MikaelDui.Extensions" Version="*" />
+    <PackageReference Include="MikaelDui.Text.Json.Serialization" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
