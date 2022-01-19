@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>RiotGames</RootNamespace>
+    <PackageId>MikaelDui.RiotGames.Core</PackageId>
+    <Authors>Mikael Dúi Bolinder</Authors>
+    <Product>MikaelDui.RiotGames.Core</Product>
+    <Description>Core models for MikaelDui.RiotGames packages</Description>
+    <PackageProjectUrl>https://github.com/mikaeldui/riot-games-dotnet-core</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>RiotGames.Core.png</PackageIcon>
+    <RepositoryUrl>https://github.com/mikaeldui/riot-games-dotnet-core</RepositoryUrl>
+    <PackageTags></PackageTags>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+    <AssemblyName>MikaelDui.RiotGames.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\RiotGames.Core.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MikaelDui.Extensions" Version="*" />
+  </ItemGroup>
+
+</Project>
