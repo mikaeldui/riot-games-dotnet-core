@@ -31,7 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MikaelDui.Text.Json.Serialization" Version="1.0.1" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="*" PrivateAssets="All"/>
+    <PackageReference Include="MikaelDui.Text.Json.Serialization" Version="*" />
   </ItemGroup>
 
 </Project>
